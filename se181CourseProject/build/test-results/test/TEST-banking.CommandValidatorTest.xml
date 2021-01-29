@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.CommandValidatorTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-12-13T05:53:22" hostname="DESKTOP-3P2DFK7" time="0.043">
+  <properties/>
+  <testcase name="validate_cd_create()" classname="banking.CommandValidatorTest" time="0.025"/>
+  <testcase name="validate_savings_deposit()" classname="banking.CommandValidatorTest" time="0.003"/>
+  <testcase name="validate_checking_create()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="validate_checking_deposit()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="validate_cd_deposit()" classname="banking.CommandValidatorTest" time="0.002"/>
+  <testcase name="validate_savings_create()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="validate_pass_time()" classname="banking.CommandValidatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
