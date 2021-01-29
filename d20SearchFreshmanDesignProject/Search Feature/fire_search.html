@@ -1,0 +1,39 @@
+<!-- Name of File - fire_search.html -->
+<!-- Author(s) - Cassidy Ashe -->
+<!-- Purpose - Testing for fire_search.js -->
+<!-- Dependencies - HTML5, fire_search.js, Firebase -->
+<!-- Date of last Edit - March 6, 2020 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spell Search</title>
+    <script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-database.js"></script>
+    <script src="fire_search.js"></script>
+    <style type="text/css">
+    dl { margin-left: 2rem; }
+    dt { width: 200px; clear: both; float: left; padding: 6px 0; }
+    dd { margin-left: 1rem; padding: 6px 0; }
+    </style>
+</head>
+    <body>
+        <!--Search input-->
+        <form id="spellentry" method="get">
+            <p>
+                <!--Search button, call getData() function from JS file-->
+                <label>Search</l>
+                <input type="text" name="searchValue" id="searchValue">
+                <button type="button" value="search" onclick="return getData();">Search</button>
+            </p>
+        </form>
+        <!--dl tag gives definitions/descriptions using searchResults-->
+        <dl id='searchResults'>
+        
+        </dl>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+/* Name of File - dice.css */
+/* Author(s) - Cassidy Ashe */
+/* Purpose - Styling and theme for dice.html dice buttons and dice tray div */
+/* Dependencies - CSS */
+/* Date of last Edit - May 29, 2020 */
+
+#d4{
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#d6{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#d8{
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#d10{
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#d12{
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+#d20{
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+#DiceTray{
+    margin-top: 5%;
+    height: 350px;
+    border: 15px solid #2F2E3C;
+}
+
+.dice {
+    padding-left: 300px;
+    padding-top: 50px;
+}

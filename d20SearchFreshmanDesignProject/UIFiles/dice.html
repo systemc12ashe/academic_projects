@@ -1,0 +1,153 @@
+<!-- Name of File - dice.html -->
+<!-- Author(s) - Cassidy Ashe -->
+<!-- Purpose - HTML page for dice roll feature -->
+<!-- Dependencies - HTML5, Bootstrap, Google Fonts, theme.css, dice.css, JavaScript -->
+<!-- Date of last Edit - May 29, 2020 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <link rel="stylesheet" type="text/css" href="dice.css">
+
+    <title>Roll Dice</title>
+</head>
+
+<body class="dicePage">
+    <!--Left-aligned nav bar-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="sideBar col-3">
+                <!-- Logo -->
+                <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                <!-- Created with Inkscape (http://www.inkscape.org/) -->
+                <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" sodipodi:docname="logo_vector.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" id="svg8" version="1.1" viewBox="0 0 210 210" height="210mm" width="210mm"> <defs id="defs2" /> <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="1.4" inkscape:cx="398.85479" inkscape:cy="283.90648" inkscape:document-units="mm" inkscape:current-layer="layer5" showgrid="false" inkscape:window-width="3840" inkscape:window-height="2004" inkscape:window-x="-16" inkscape:window-y="-16" inkscape:window-maximized="1" inkscape:snap-grids="false" /> <metadata id="metadata5"> <rdf:RDF> <cc:Work rdf:about=""> <dc:format>image/svg+xml</dc:format> <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" /> <dc:title></dc:title> </cc:Work> </rdf:RDF> </metadata> <g inkscape:label="Banner" inkscape:groupmode="layer" id="layer1" style="display:inline;opacity:1" transform="translate(0,-87)"> <path style="fill:#000000;fill-opacity:1;stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 26.269345,101.01935 H 183.64757 V 233.87428 L 105.05363,283.58641 26.543203,233.9411 Z" id="path4539" inkscape:connector-curvature="0" /> <g id="g4564" transform="matrix(1.002399,0,0,1,-0.0628336,0)"> <path transform="matrix(0.26458333,0,0,0.26458333,0,87)" inkscape:connector-curvature="0" id="path4541" d="M 248.36907,649.39212 99.950996,555.55362 99.708635,431.62505 C 99.575337,363.46433 99.359122,250.2813 99.228158,180.10719 L 98.99004,52.517904 H 396.72788 694.46572 V 303.91522 555.31255 l -5.80357,3.66361 c -3.19197,2.015 -14.48215,9.15339 -25.08929,15.86314 -29.21221,18.47871 -59.88146,37.87546 -102.5,64.826 -21.21428,13.41521 -45.5625,28.81225 -54.10714,34.21561 -8.54464,5.40335 -36.71022,23.21785 -62.59018,39.58778 -25.87995,16.36993 -47.1746,29.76314 -47.32143,29.76272 -0.14683,0 -67.0551,-42.22811 -148.68504,-93.83929 z" style="fill:#1e5d62;fill-opacity:1;stroke-width:0.35714287" /> <path inkscape:connector-curvature="0" id="path4541-6" d="M 69.766561,250.38069 34.424502,228.0354 34.366782,198.5249 c -0.03174,-16.23077 -0.08322,-43.18248 -0.114415,-59.89268 l -0.0567,-30.3822 h 70.898833 70.89882 v 59.86398 59.86399 l -1.38198,0.87239 c -0.76008,0.47983 -3.44855,2.17966 -5.97439,3.77742 -6.95615,4.40024 -14.25926,9.01909 -24.40781,15.43669 -5.05164,3.1945 -10.84957,6.86092 -12.88425,8.14759 -2.0347,1.28667 -8.74163,5.52875 -14.9043,9.42684 -6.16266,3.89809 -11.23345,7.08735 -11.26841,7.08725 -0.0349,0 -15.9675,-10.05557 -35.40563,-22.34548 z" style="fill:#669791;fill-opacity:1;stroke-width:0.08504464" /> </g> <flowRoot xml:space="preserve" id="flowRoot8660" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none" transform="matrix(0.26458333,0,0,0.26458333,0,87)"><flowRegion id="flowRegion8662"><rect id="rect8664" width="32.857143" height="51.42857" x="361.78571" y="475.84366" /></flowRegion><flowPara id="flowPara8666"></flowPara></flowRoot>    <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:0px;fill:#ebac3a;fill-opacity:0;stroke:none;stroke-width:0.26458332" x="81.07589" y="242.38245" id="text8693"><tspan sodipodi:role="line" id="tspan8691" x="81.07589" y="252.97723" style="fill:#ebac3a;fill-opacity:0;stroke-width:0.26458332" /></text> </g> <g inkscape:groupmode="layer" id="layer3" inkscape:label="Magnifying Glass" style="display:inline" sodipodi:insensitive="true"> <g id="g8628"> <g id="g8616"> <g id="g8605"> <circle r="21.686384" cy="156.81808" cx="139.89844" id="path8579" style="display:inline;opacity:1;fill:#1e5d62;fill-opacity:1;stroke-width:0.23627187" transform="translate(0,-87.000001)" /> <ellipse ry="14.12686" rx="14.504836" cy="70.290558" cx="139.89844" id="path8574" style="fill:#e9e7f1;fill-opacity:1;stroke-width:0.25942317" /> </g> <rect style="display:inline;opacity:1;fill:#1e5d62;fill-opacity:1;stroke-width:0.29066819" id="rect8583" width="17.008928" height="6.6145835" x="-47.128609" y="206.23572" transform="rotate(-45,-105.01829,-43.499995)" /> <g id="g8600"> <rect transform="matrix(0.71904553,-0.69496297,0.71904553,0.69496297,0,-87.000001)" ry="4.1303697" y="203.27048" x="-75.414207" height="14.198145" width="33.791592" id="rect8520" style="display:inline;opacity:1;fill:#2f2e3c;fill-opacity:1;stroke-width:0.24397019" /> <rect transform="rotate(-45)" y="132.62535" x="-15.964554" height="24.851934" width="14.174108" id="rect8522" style="display:inline;opacity:1;fill:#669791;fill-opacity:1;stroke-width:0.26458332" /> </g> </g> <ellipse ry="7.0398068" rx="7.1815476" cy="105.59355" cx="103.28201" id="path8515" style="display:inline;opacity:1;fill:#2f2e3c;fill-opacity:1;stroke-width:0.29714784" /> </g> </g> <g inkscape:groupmode="layer" id="layer4" inkscape:label="Die" sodipodi:insensitive="true"> <path sodipodi:type="star" style="display:inline;fill:#2f2e3c;fill-opacity:1;stroke-width:0.26458332" id="path8513" sodipodi:sides="6" sodipodi:cx="83.154762" sodipodi:cy="59.659969" sodipodi:r1="27.053202" sodipodi:r2="23.428761" sodipodi:arg1="0.68892439" sodipodi:arg2="1.2125232" inkscape:flatsided="true" inkscape:rounded="0" inkscape:randomized="0" d="M 104.03795,76.857886 78.702522,86.344296 57.819337,69.146379 62.271578,42.462053 87.607003,32.975643 108.49019,50.173559 Z" transform="matrix(1.0294814,-0.03847126,0.03847126,1.0294814,-3.9907628,1.6291956)" /> </g> <g inkscape:groupmode="layer" id="layer5" inkscape:label="text"> <g id="g8709" transform="matrix(1.0673662,0,0,1.0718314,-7.087998,-10.537872)"> <g id="g8723" transform="translate(-1.6332363e-8,-2.9974841)"> <g aria-label="2" transform="matrix(1.1655989,0,0,0.85792807,0,-87.000001)" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.08039093px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#ebac3a;fill-opacity:1;stroke:none;stroke-width:0.92700976" id="text8670"> <path d="m 98.052984,271.79611 v 4.99716 H 81.794915 l 0.01013,-4.1824 c 4.767823,-7.79751 7.973286,-12.74356 8.866499,-14.59034 1.087688,-1.76248 1.736892,-2.63821 1.736892,-3.67626 0,-0.79666 -0.167472,-0.9987 -0.445092,-1.38495 -0.26555,-0.39833 -1.24919,-0.3249 -1.80443,-0.3249 -0.555241,0 -1.860201,-0.13321 -2.137821,0.30133 -0.265549,0.43454 -0.338614,0.4805 -0.369662,1.77135 l -0.02866,1.19168 -5.665719,0.0221 v 0 c 0,0 0.04395,-2.50713 0.212944,-3.44863 0.229788,-2.12382 0.119269,-2.31582 0.783144,-3.23317 0.663874,-0.91735 1.901855,-1.41866 2.964054,-1.88941 1.062199,-0.47075 2.467367,-0.43076 3.952031,-0.43076 2.908976,0 4.974059,0.49017 6.458723,1.93862 0,0 1.677618,1.20762 1.687752,5.49544 0.004,1.67778 0.165286,3.65867 -0.578309,5.52959 -0.832861,1.87092 -3.301266,5.84209 -7.405215,11.91352 z" style="fill:#ebac3a;fill-opacity:1;stroke-width:0.92700976" id="path8682" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccscscsccscssscsccc" /> </g> <g aria-label="0" transform="matrix(1.1229484,0,0,0.90845825,0,-91.794343)" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.28395462px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#ebac3a;fill-opacity:1;stroke:none;stroke-width:0.88209885" id="text8674"> <path d="m 119.74743,248.17756 v 9.30338 c 0,2.11337 -0.11486,3.65245 -0.34457,4.61724 -0.22971,0.96479 -0.70637,1.86642 -1.42996,2.70487 -0.7236,0.83845 -1.59651,1.44145 -2.61873,1.80899 -1.02223,0.36755 -2.16505,0.55132 -3.42847,0.55132 -1.66543,0 -3.04945,-0.18951 -4.15207,-0.56854 -1.10263,-0.39051 -1.98128,-0.99351 -2.63596,-1.809 -0.65468,-0.81548 -1.11985,-1.67116 -1.39551,-2.56704 -0.27565,-0.90737 -0.41348,-2.34308 -0.41348,-4.30713 v -9.73409 c 0,-2.56131 0.21823,-4.47941 0.65468,-5.75432 0.44794,-1.27491 1.32659,-2.29713 2.63596,-3.06667 1.32085,-0.76954 2.91736,-1.15431 4.78952,-1.15431 1.52759,0 2.89439,0.26991 4.10038,0.80974 1.20599,0.52834 2.10762,1.17728 2.70488,1.94682 0.59725,0.76954 0.99925,1.63671 1.20599,2.6015 0.21823,0.96479 0.32734,2.50387 0.32734,4.61724 z m -6.96031,-2.34308 c 0,-1.48165 -0.0747,-1.24127 -0.22397,-1.60881 -0.13783,-0.37903 -0.47091,-0.56854 -0.99925,-0.56854 -0.51685,0 -0.86142,0.201 -1.03371,0.603 -0.1608,0.39051 -0.2412,0.13864 -0.2412,1.57435 v 13.61051 c 0,1.61948 0.0747,1.43078 0.22397,1.76386 0.1608,0.33309 0.652,0.51265 1.01648,0.49963 0.37368,-0.0133 0.85568,-0.19526 1.01648,-0.58577 0.1608,-0.39051 0.2412,-0.10419 0.2412,-1.47098 z" style="fill:#ebac3a;fill-opacity:1;stroke-width:0.88209885" id="path8685" inkscape:connector-curvature="0" sodipodi:nodetypes="sssccscccssccscccsscscsscasss" /> </g> <g aria-label="D" transform="matrix(0.95928418,0,0,0.81294065,-195.64493,-260.53967)" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#ebac3a;fill-opacity:1;stroke:none" id="flowRoot8631"> <path d="m 282.71289,474.26595 h 6.15234 c 3.97136,0 6.65365,0.47288 8.04688,0.83746 1.40625,0.36459 2.47395,0.67296 3.20312,1.50629 0.72917,0.83333 1.1849,1.76432 1.36719,2.79297 0.18229,1.01562 0.27344,3.02083 0.27344,6.01562 v 11.07422 c 0,2.83854 -0.13672,4.73958 -0.41016,5.70312 -0.26041,0.95053 -0.72265,1.69923 -1.38672,2.2461 -0.66406,0.53385 -1.48437,0.91146 -2.46093,1.13281 -0.97657,0.20833 -2.44792,0.3125 -4.41407,0.3125 h -10.37109 z m 7.0406,7.48198 0.0739,16.82741 c 1.18489,0 -2.69103,0.47651 3.29568,-0.56121 0.59357,-0.16958 1.72007,-0.0461 1.71534,-2.15547 l -0.0246,-10.97963 c -0.003,-1.43228 0.0529,-0.98796 -0.48148,-1.56189 -2.98258,-1.64754 1.44895,0.40357 -1.80706,-0.88298 -0.32552,-0.19531 -1.87329,-0.68623 -2.77173,-0.68623 z" id="path8679" inkscape:connector-curvature="0" sodipodi:nodetypes="cscscsscccscccccsscccc" /> </g> </g> </g> <g aria-label="Search" transform="matrix(0.92996631,0,0.01669625,1.0753078,0,0)" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.84623432px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#ebac3a;fill-opacity:1;stroke:none;stroke-width:0.39615577" id="text8697"> <path d="m 88.119125,144.31407 q 0,-0.93493 0.253539,-1.56878 0.269386,-0.6497 0.76062,-1.04585 0.491233,-0.39616 1.188467,-0.57047 0.697234,-0.17431 1.568777,-0.17431 0.792312,0 1.34693,0.11093 0.570465,0.0951 0.887389,0.22184 0.412002,0.17431 0.475387,0.41201 0.07923,0.23769 0.07923,0.45954 v 1.14093 q -0.364464,-0.0159 -0.649696,-0.0317 -0.285232,-0.0317 -0.554618,-0.0317 -0.269386,-0.0158 -0.538772,-0.0158 -0.269386,-0.0159 -0.586311,-0.0159 -0.491233,0 -0.808158,0.0634 -0.301078,0.0634 -0.475387,0.17431 -0.174308,0.11093 -0.237693,0.28523 -0.06338,0.17431 -0.06338,0.38031 0,0.2377 0.04754,0.41201 0.06338,0.15846 0.221848,0.30107 0.174308,0.14262 0.491233,0.30108 0.332771,0.15847 0.887389,0.39616 0.728927,0.31692 1.22016,0.618 0.50708,0.30108 0.808158,0.68139 0.316925,0.38031 0.443695,0.88739 0.142616,0.50708 0.142616,1.22016 0,0.90323 -0.206001,1.55293 -0.206001,0.63385 -0.665542,1.0617 -0.443695,0.412 -1.156775,0.60216 -0.713081,0.206 -1.743086,0.206 -0.760619,0 -1.426161,-0.0951 -0.665542,-0.0792 -1.030005,-0.22185 -0.332771,-0.12677 -0.459541,-0.31692 -0.12677,-0.206 -0.12677,-0.47539 v -1.28355 q 0.618003,0.0475 1.204314,0.0792 0.58631,0.0158 1.204314,0.0158 0.538772,0 0.871542,-0.0634 0.348618,-0.0634 0.522926,-0.17431 0.190155,-0.12677 0.25354,-0.30108 0.06338,-0.19015 0.06338,-0.412 0,-0.28523 -0.07923,-0.45954 -0.07923,-0.19016 -0.285233,-0.33277 -0.190154,-0.15847 -0.538772,-0.30108 -0.33277,-0.15846 -0.855696,-0.38031 -0.744773,-0.30108 -1.22016,-0.618 -0.475387,-0.31693 -0.744773,-0.71309 -0.269386,-0.39615 -0.38031,-0.87154 -0.110923,-0.49123 -0.110923,-1.10923 z" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'HP Simplified';-inkscape-font-specification:'HP Simplified Bold';fill:#ebac3a;fill-opacity:1;stroke-width:0.39615577" id="path8743" /> <path d="m 102.86306,151.82518 q -0.41201,0.17431 -1.14093,0.34862 -0.71308,0.17431 -1.774782,0.17431 -0.934927,0 -1.616315,-0.2377 -0.681389,-0.23769 -1.140929,-0.76062 -0.443695,-0.52292 -0.665542,-1.33108 -0.206001,-0.824 -0.206001,-1.98078 0,-2.2977 0.855696,-3.29602 0.871543,-1.01416 2.709707,-1.01416 0.966616,0 1.568776,0.26939 0.618,0.26939 0.96662,0.74477 0.34862,0.45954 0.47539,1.10924 0.12677,0.63385 0.12677,1.37862 0,0.15846 -0.0159,0.39616 -0.0158,0.23769 -0.0634,0.47539 -0.0317,0.23769 -0.0792,0.45954 -0.0475,0.206 -0.0951,0.31692 h -3.993253 q 0,0.80816 0.38031,1.12508 0.396156,0.31693 1.236003,0.31693 0.77647,0 1.17262,-0.0159 0.41201,-0.0317 0.71308,-0.0317 0.31693,0 0.4437,0.15846 0.14262,0.14262 0.14262,0.412 z m -2.09171,-4.48448 q 0,-0.98247 -0.206,-1.34693 -0.19015,-0.38031 -0.713079,-0.38031 -0.633849,0 -0.855697,0.39615 -0.206001,0.39616 -0.221847,1.33109 z" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'HP Simplified';-inkscape-font-specification:'HP Simplified Bold';fill:#ebac3a;fill-opacity:1;stroke-width:0.39615577" id="path8745" /> <path d="m 106.41558,152.23718 q -1.14093,0 -1.75893,-0.68139 -0.60216,-0.68138 -0.60216,-1.93324 0,-0.85569 0.26939,-1.36277 0.28523,-0.52293 0.74477,-0.77647 0.45954,-0.26938 1.04585,-0.34861 0.58632,-0.0792 1.22016,-0.0792 h 0.96662 v -0.47538 q 0,-0.50708 -0.34861,-0.61801 -0.34862,-0.12677 -1.07755,-0.12677 -0.64969,0 -1.17262,0.0317 -0.50708,0.0317 -0.64969,0.0317 -0.30108,0 -0.42785,-0.15846 -0.12677,-0.15847 -0.12677,-0.36447 v -1.10923 q 0.44369,-0.19016 1.18847,-0.36447 0.74477,-0.17431 1.71139,-0.17431 1.85401,0 2.66217,0.77647 0.80815,0.77647 0.80815,2.21847 v 5.41942 h -1.52123 q -0.17431,0 -0.30108,-0.0159 -0.11093,-0.0317 -0.19016,-0.0951 -0.0792,-0.0792 -0.14261,-0.206 -0.0634,-0.12677 -0.12677,-0.31692 l -0.0951,-0.25354 q -0.31692,0.34861 -0.824,0.66554 -0.50708,0.31692 -1.25186,0.31692 z m 1.86986,-3.64463 h -1.01416 q -0.52293,0 -0.74477,0.23769 -0.206,0.22185 -0.206,0.63385 0,0.49123 0.23769,0.68139 0.23769,0.17431 0.68139,0.17431 0.63385,0 1.04585,-0.31693 z" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'HP Simplified';-inkscape-font-specification:'HP Simplified Bold';fill:#ebac3a;fill-opacity:1;stroke-width:0.39615577" id="path8747" /> <path d="m 116.75649,143.87037 q 0.618,0 0.618,0.55462 v 1.82232 q -0.11092,-0.0159 -0.206,-0.0159 -0.0951,0 -0.22185,0 -0.50708,0 -1.01416,0.0792 -0.49123,0.0792 -0.80815,0.34862 v 5.4828 h -2.06001 q -0.58631,0 -0.58631,-0.55462 v -7.66958 h 1.52123 q 0.34862,0 0.49124,0.12677 0.14261,0.11092 0.26938,0.50708 l 0.12677,0.42785 q 0.33277,-0.52293 0.82401,-0.80816 0.49123,-0.30108 1.04585,-0.30108 z" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'HP Simplified';-inkscape-font-specification:'HP Simplified Bold';fill:#ebac3a;fill-opacity:1;stroke-width:0.39615577" id="path8749" /> <path d="m 124.12202,151.82518 q -0.412,0.206 -0.93493,0.36446 -0.50708,0.15847 -1.33108,0.15847 -1.85401,0 -2.66217,-1.01416 -0.80816,-1.03001 -0.80816,-3.28017 0,-2.25017 0.79231,-3.28017 0.79231,-1.04586 2.56709,-1.04586 0.58631,0 1.07755,0.0951 0.50708,0.0951 0.824,0.25354 0.28523,0.14262 0.38031,0.33277 0.0951,0.19016 0.0951,0.50708 v 1.03001 q -0.47539,-0.0475 -0.96662,-0.0634 -0.47539,-0.0317 -0.69724,-0.0317 -0.44369,0 -0.71308,0.11092 -0.26938,0.0951 -0.412,0.34862 -0.14262,0.23769 -0.19015,0.6497 -0.0475,0.39615 -0.0475,1.01416 0,0.66554 0.0475,1.10923 0.0475,0.42785 0.1743,0.68139 0.12677,0.23769 0.36447,0.33277 0.23769,0.0951 0.60215,0.0951 0.0951,0 0.25354,0 0.15847,-0.0159 0.31693,-0.0159 0.17431,0 0.31692,0 0.15847,-0.0158 0.2377,-0.0158 0.36446,0 0.53877,0.14261 0.17431,0.14262 0.17431,0.47539 z" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'HP Simplified';-inkscape-font-specification:'HP Simplified Bold';fill:#ebac3a;fill-opacity:1;stroke-width:0.39615577" id="path8751" /> <path d="m 130.37336,152.14211 q -0.58631,0 -0.58631,-0.55462 v -4.80141 q 0,-0.412 -0.15847,-0.60216 -0.15846,-0.206 -0.58631,-0.206 -0.23769,0 -0.49123,0.0792 -0.25354,0.0792 -0.42785,0.23769 v 5.84727 h -2.06001 q -0.58631,0 -0.58631,-0.55462 v -10.82298 h 2.06001 q 0.58631,0 0.58631,0.55462 v 3.34355 q 0.8557,-0.93493 2.04417,-0.93493 2.26601,0 2.26601,2.78894 v 5.62542 z" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'HP Simplified';-inkscape-font-specification:'HP Simplified Bold';fill:#ebac3a;fill-opacity:1;stroke-width:0.39615577" id="path8753" /> </g> </g> </svg>
+                    
+                <h1>D20 Search</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="dice.html"  class="active-link">Roll Dice</a></li>
+                    <li><a href="create.html">Create Character</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="help.html">Help</a></li>
+                </ul>
+            </div>
+
+            <!--Dice roll function-->
+            <script>
+                // Number of sides
+                var a = 4
+                var b = 6
+                var c = 8
+                var d = 10
+                var e = 12
+                var f = 20
+
+                function getRandomIntInclusive(min, max) {
+                    // Number of dice
+                    var rolls = document.getElementById('numRolls').value;
+                    var total = 0;
+                    var math = [];
+                    for (var step = 0; step < rolls; step++) {
+                        // advantage/disadvantage
+                        if (document.getElementById('advantage').checked){
+                            var x = Math.floor(Math.random() * (max - min + 1)) + min
+                            var y = Math.floor(Math.random() * (max - min + 1)) + min
+                            if (x > y||x == y){
+                                total += x
+                                math.push(String(x));
+                            }else {
+                                total += y
+                                math.push(String(y));
+                            }
+                        }else if (document.getElementById('disadvantage').checked){
+                            var x = Math.floor(Math.random() * (max - min + 1)) + min
+                            var y = Math.floor(Math.random() * (max - min + 1)) + min
+                            if (x < y||x == y){
+                                total +=  x
+                                math.push(String(x));
+                            }else{
+                                total +=  y
+                                math.push(String(y));
+                            }
+                        }else{
+                            // normal roll
+                            var x = Math.floor(Math.random() * (max - min + 1)) + min;
+                            total += x
+                            math.push(String(x));
+                        }
+                    }
+                    // creates string to print in dice tray
+                    if (math.length > 1) {
+                        var adding  = math.join(" + ");
+                        var equals = (" = ");
+                        total = String(total)
+                        var outputstring = adding.concat(equals, total);
+                        return outputstring;
+                    } else {
+                        return math
+                    }
+                    
+                }
+                //Random function curtesy of https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random    
+            </script>
+            
+            <div class="col-3"></div>
+
+            <div class="content col-9">
+            <!--Radio Buttons for adding Advantage/Disadvantage-->
+            <div class="row">
+                <div class = "modifiers">
+                    <form action="">
+                        <h3>Number of Rolls</h3>
+                        <input type="number" id = 'numRolls' min="1" max="20" value = "1" class="form-control"><br>      
+    
+                        <input type='radio' id='advantage' name='advantage' value = isAdvantage unchecked><label style="font-size: 20px;">Advantage</label>
+                        <br>
+                        <input type='radio' id='disadvantage' name='advantage' value = isDisadvantage unchecked><label style="font-size: 20px;">Disdvantage</label>
+                        <br>
+                        <!-- Reset modifiers to none -->
+                        <div class="center-block"> 
+                            <button onclick = "determineAdvantage()" class="btn">  
+                                Reset
+                            </button> 
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- dice buttons -->
+                <div class="dice">
+                    <input type="image" src="d4.png" alt="D4" onclick="document.getElementById('currentValue').innerHTML   = getRandomIntInclusive(1, a)">
+                    <input type="image" src="d6.png" alt="D6" onclick="document.getElementById('currentValue').innerHTML   = getRandomIntInclusive(1, b)">
+                    <input type="image" src="d8.png" alt="D8" onclick="document.getElementById('currentValue').innerHTML   = getRandomIntInclusive(1, c)">
+                    <input type="image" src="d10.png" alt="D10" onclick="document.getElementById('currentValue').innerHTML = getRandomIntInclusive(1, d)">
+                    <input type="image" src="d12.png" alt="D12" onclick="document.getElementById('currentValue').innerHTML = getRandomIntInclusive(1, e)">
+                    <input type="image" src="d20.png" alt="D20" onclick="document.getElementById('currentValue').innerHTML = getRandomIntInclusive(1, f)">
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="DiceTray" class="diceTray w-100">
+                    <h4 id = 'currentValue' class="text-center">0</h4>
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+</div>
+</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

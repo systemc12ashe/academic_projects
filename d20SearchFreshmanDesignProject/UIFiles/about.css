@@ -1,0 +1,20 @@
+/* Name of File - about.css */
+/* Author(s) - Cassidy Ashe */
+/* Purpose - styling specifically for about.html */
+/* Dependencies - CSS, about.html */
+/* Date of last Edit - May 29, 2020 */
+
+h2{
+font-size: 215%;
+font-weight: bold;
+}
+
+p{
+    font-size: large;
+}
+
+.contentAbout {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 4%;
+}
