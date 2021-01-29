@@ -1,0 +1,117 @@
+"Turner!"
+Your eyes open as this familiar shout echoes through your tiny, cluttered, beige office. A manilla folder is slapped down in front of you on top of many unfinished reports. 
+Wake up man, I know you haven’t had a case in a while, but we actually have something for you today. 
+It feels almost pointless for you to open this folder, because you know what will be in there. Another damn report of some mundane mugging or theft. A piece of busy work. 
+You move the rocks glass on your desk into the drawer, and replace it with a coffee mug, labeled “I <3 NY”. 
+You moved to this city to be where the trouble was, but you ended up on all of the grunt work cases. As a detective, this was the most painful thing they could do to you.
+Do you open the folder?
+(Yes/No)
+
+You look up at your boss. He has his arms crossed, and you know that he’s going to stand there until you open the folder.
+Do you open it?
+(Yes/No)
+
+His arms unfold and reach to the folder. He slaps open the flimsy papers, and in front of you lies your next case.
+
+Your eyes lazily move to the top left corner of the page. You see a name that you recognize, and begins to capture your interest. You read “Judge Gregory Bradford” at the top of the page. A vote occured in the town recently for the new local trial court judge. As a good citizen does, you voted in that election. And as a good citizen, you also made sure to NOT vote for Gregory Bradford. He was your high school bully, after all. You can’t imagine how he can bring justice after bringing so much chaos. Your eyes continue down the page, and you happen to catch the words “collusion” and “local election”.
+You look up to your boss.
+“We got an anonymous tip.”
+You look back  down, and read through the entirety of the case file. So far, almost nothing has been solved. This is your chance to prove your worth to your co-workers, and to get back at the person who ruined 4 years of your life. 
+
+As your first move, you start your search at the office of the campaign manager, Paul Howard.
+You enter the office and ask to speak with him. 
+“I don’t know anything. Greg would never resort to such methods. He absolutely deserved that win, especially after all of his hard work.”
+(Be Skeptical/Accept Response)
+
+You ask “Who else is involved with the campaign?
+“Talk to the outreach lead, Jessica Moore”
+You get back in your car and head to your office.
+
+Back at the office, you sit in your chair. 
+You look down at your desk, and notice a spreadsheet sprawled across a white page. It could be just another piece of clutter in the room, but it doesn’t look familiar.
+
+Upon further inspection, you notice that this is the chart of the expenses of the Bradford campaign. You see many average expenses, and eventually see one that is slightly off… It is a large expense that does not seem to line up with the rest of the chart.
+
+Couldn’t be important, all you get is more clutter anyway.
+
+The telephone rings, and you look at the caller ID. It’s Margaret Bradford, wife of the accused.
+“Come to our home, I would like to talk with you,” she says quickly and quietly.
+Do you go?
+(Yes/No)
+
+You tell her you’re busy, and that you will talk another time.
+
+You go to the Bradford residence, and are invited inside by Mrs. Bradford. She sits you down on the prim and proper living room couch. She asks if you are investigating her husband's recent victory.
+What do you tell her?
+(Yes/No)
+
+Mrs. Bradford looks at you, then glances down at the carpet. She apologizes for wasting your time. You realize she may have some information, but that you just told her you were not investigating her husband. You get up and leave.
+
+She looks at you, upset but understanding.  You sigh, and explain that you are just doing your job and need to explore all options. 
+“Do you think he cheated his way in?”
+“Well ma’am, I can’t say anything on that right now.”
+She nods in response.
+“Well, would I be able to buy your silence either way? He isn’t guilty, but I just want to make sure this all goes away.”
+Do you take the money?
+(Yes/No)
+
+“Thank you, Thank you.”
+Mrs. Bradford cries softly, and leads you out the door. You take the money, and bring it back to the office and write the report of the bribery. This is not going as planned. This is not like all of the other cases you’ve been assigned to. 
+
+"But, why?" Mrs. Bradford asks, desperately.
+You look at her with a cold glance, "All you're doing with bribing me is incriminating you husband."
+She begins to sob into her hands, and you pencil this down in your notes as you walk out the door.
+
+You sit at your desk, twiddling your thumbs. You end the work day and decide to head home. You arrive back at your home and the door is ajar. 
+Something feels off. You would call backup, but you know no one will come.
+(Investigate/Go in as normal)
+
+You stalk forward, systematically checking through the windows. You peer in and see a figure holding what seems like a baseball bat. You return to the office and spend the night there in your office, reviewing some of the evidence you’ve gathered.
+
+You don’t know this, but someone has been watching you all this time. You feel a cold thud against your skull. 
+
+"Turner!"
+"Turner!"
+Your eyes open as this familiar shout echoes through your tiny, cluttered, beige office.
+You look up at your boss.
+What are you doing here already?
+You look up at him and say nothing. 
+I came in here to  let you know you’re off the case.
+“Huh?”, you reply, sleepily.
+I said you’re off the case.
+You look back in disbelief as your boss turns to leave the room.
+Do you accept this or will you keep going anyway?
+(Accept/Keep Going)
+
+You won’t let this case get away from you; justice for this corrupt man, and your own pride are greatly at stake.
+
+You make a call back to the campaign manager, Mr. Paul Howard. His assistant picks up the phone, and you ask for Mr. Howard. The woman on the line tells you he hasn’t come into the office yet. You hang up. What do you do now?
+(Wait until later/Visit his home)
+
+You drive to the Howard residence. In the driveway is his car, and on the ground is a mask.
+(Pick it up/Leave it)
+
+You pick up the mask to keep for evidence.
+
+You knock on the door, and wait for a minute with no reply.
+You knock again. No reply.
+Do you leave or go in?
+(Leave/Go in)
+
+You go in quietly, and begin to look around. Propped against the wall by the door is an aluminum baseball bat.
+
+You leave to go back to the office.
+
+You go in further and see a laptop open and logged in on the coffee table. Do you check it?
+(Yes/No)
+
+You start scanning through, and eventually make it to his email. Plenty of junk, spam and emails from his grandmother. Then, you spot it. A bookmarked email with no subject. You open it to find an agreement to  pay a sum that was uncalled for in the campaign documents. The email contains further information on the transaction.
+
+Do you take the laptop or not?
+(Yes/No)
+
+Instead of taking the laptop, you just snap a picture on your phone of all of the damning evidence. You seem to get out of the house just in time, as you hear footsteps behind you as you leave.
+You return to the station and upload the photos as evidence. Your boss walks in, and hands you a new manilla folder, and says that due to new evidence “from an anonymous source” has given some light into the situation. He winks at you. He says it’s enough to incriminate Mr. Paul Howard for this incident. And that’s all you need to know.
+
+You shut the laptop, but as you get up from the couch, the laptop is ripped from your hands, and you see Howard come down onto your head with it.
+GAME OVER
